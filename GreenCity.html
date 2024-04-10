@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--this links the file to the ionic library-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCity</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<!--All of this is simply to reference the pages to each other-->
+
+<body>
+    <ion-app>
+        <ion-router>
+            <ion-route url="/" component="page-one"></ion-route>
+            <ion-route url="/two" component="page-two"></ion-route>
+            <ion-route url="/three" component="page-three"></ion-route>
+        </ion-router>
+        <ion-nav></ion-nav>
+    </ion-app>
+<!--this is linking the 'GreenCity' html document to the 'App.js' document-->
+    <script src="App.js"></script>
+</body>
+
+</html>

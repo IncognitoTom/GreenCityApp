@@ -22,3 +22,6 @@ Input the city within the bottom input bar:
 ![alt text](<Pictures/Search bar.png>)
 
 Then press the 'search' button.
+
+
+VideoLink: https://youtu.be/MxNDg8lSOEA?si=SicGV5cX3wxQgebv

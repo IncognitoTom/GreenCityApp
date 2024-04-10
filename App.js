@@ -35,9 +35,9 @@ customElements.define('page-one', class extends HTMLElement {
         <!--This is a paragraph of information connected to published articles-->
         <ion-card>
                 <h2 class="ion-text-center">General Information</h2>
-                <h4 class="padding, ion-text-center">Carbon emissions are one of the most alarming side-effects of “business as usual” across the world, because they cause climate change. 
+                <h4 class="padding, ion-text-center">Source Linked Below: 'Carbon emissions are one of the most alarming side-effects of “business as usual” across the world, because they cause climate change. 
                     Due to climate change, our seasons are becoming less predictable,
-                    our water is more scarce, and our economy is at greater risk everyday.</h4>
+                    our water is more scarce, and our economy is at greater risk everyday.'</h4>
                 <h4 class="ion-text-center">Knowing your cities carbon usage is important so that we can try and reduce carbon emmisions worldwide and prevent global warming.</h4>
         </ion-card>
      
@@ -46,7 +46,7 @@ customElements.define('page-one', class extends HTMLElement {
         <ion-card>
             <ion-card-content>
                 <h4 class="padding">Click below to find out more about carbon emmisions: </h4>
-                <ion-button href="https://ourworldindata.org/co2-emissions" id="linkButton1" expand="block" color="success">Click</ion-button>
+                <ion-button href="https://greenly.earth/en-gb/blog/ecology-news/carbon-emissions-what-you-need-to-know" id="linkButton1" expand="block" color="success">Click</ion-button>
             </ion-card-content>
         </ion-card>
         </ion-content>
@@ -99,7 +99,7 @@ customElements.define('page-two', class extends HTMLElement {
             <ion-card-content>
                 <h2 class="ion-text-center">Climate Change: Global Temperature</h2>
                 <h4 class="padding, ion-text-center" color="dark">
-            Given the tremendous size and heat capacity of the global oceans, it takes a massive amount of added heat energy to raise Earth’s average yearly surface temperature even a small amount.
+                Taken from the climate.gov website: Given the tremendous size and heat capacity of the global oceans, it takes a massive amount of added heat energy to raise Earth’s average yearly surface temperature even a small amount.
             The roughly 2-degree Fahrenheit (1 degrees Celsius) increase in global average surface temperature that has occurred since the pre-industrial era (1850-1900 in NOAA's record) might seem small,
              but it means a significant increase in accumulated heat.
                 </h4>
@@ -108,10 +108,10 @@ customElements.define('page-two', class extends HTMLElement {
 
             <ion-card color="medium">
                 <ion-card-content>
-                <h4 class="ion-text-center" color="dark">That extra heat is driving regional and seasonal temperature extremes, reducing snow cover and sea ice, intensifying heavy rainfall, 
+                <h4 class="ion-text-center" color="dark">'That extra heat is driving regional and seasonal temperature extremes, reducing snow cover and sea ice, intensifying heavy rainfall, 
                     and changing habitat ranges for plants and animals—expanding some and shrinking others.  As the map below shows, most land areas have warmed faster than most ocean areas, 
                     and the Arctic is warming faster than most other regions. In addition, it's clear that the rate of warming over the past few decades is much faster than the average rate 
-                    since the start of the 20th century.</h4>
+                    since the start of the 20th century.'</h4>
                 </ion-card-content>
             </ion-card>
             

@@ -197,7 +197,7 @@ customElements.define('page-three', class extends HTMLElement {
     <!--search bar for city-->
             <ion-card>
                 <ion-card-content>
-                    <ion-input id="cityInput" label="Search for your city: "></ion-input>
+                    <ion-input id="cityInput" label="Search for city: "></ion-input>
                 </ion-card-content>
             </ion-card>
 

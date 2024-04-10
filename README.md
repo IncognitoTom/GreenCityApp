@@ -3,7 +3,7 @@
 -The cities local time
 -The Stations Geo Location data (latatude and longitude)
 
--The app includes navigation buttons, as well as link buttons and input bars.
+-The app includes navigation buttons, as well as link buttons and input bars
 
  -The app has 3 pages to it:
     -The home page with basic information on climate change and why it is important, along with the source article 
